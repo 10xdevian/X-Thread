@@ -1,0 +1,15 @@
+{
+  "name": "twitter-x",
+  "private": true,
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:api": "pnpm --filter api dev",
+    "dev:timeline": "pnpm --filter timeline-services dev",
+    "dev:all": "concurrently \"pnpm dev:web\" \"pnpm dev:api\""
+  },
+  "packageManager": "pnpm@10.15.0",
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "typescript": "^5.9.2"
+  }
+}

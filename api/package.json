@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index",
+    "build": "tsc -p .",
+    "dev": "tsc-watch --onSuccess \"npm start\""
+  },
+  "devDependencies": {
+    "@types/express": "types/express",
+    "tsc-watch": "^7.1.1",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@apollo/server": "^5.0.0",
+    "@as-integrations/express5": "^1.1.2",
+    "@types/body-parser": "^1.19.6",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "graphql": "^16.11.0",
+    "zod": "^4.0.17"
+  },
+  "packageManager": "pnpm@10.15.0"
+}
