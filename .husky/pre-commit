@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "🔍 Running lint-staged (Prettier)..."
+pnpm lint-staged
+
+echo "🧪 Checking TypeScript types across all packages..."
+pnpm tsc -b --noEmit

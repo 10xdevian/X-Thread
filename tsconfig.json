@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "references": [
+    { "path": "web" },
+    { "path": "api" },
+    { "path": "shared/validation" },
+    { "path": "shared/types" },
+    { "path": "shared/validation" }
+  ]
+}
